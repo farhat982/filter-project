@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  padding: 50px;
+}
+.leftMenu {
+  flex: 1;
+}
+.search {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #555;
+}
+h1 {
+  font-size: 30px;
+  color: #555;
+  font-weight: 300;
+}
+.content {
+  flex: 4;
+}
+.cats {
+  display: flex;
+  flex-direction: column;
+  color: #555;
+}
+.cat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.name {
+  font-weight: 300;
+}
+.priceText {
+}
